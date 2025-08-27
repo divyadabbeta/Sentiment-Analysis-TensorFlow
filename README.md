@@ -1,27 +1,25 @@
-🎬 Sentiment Analysis on IMDb Movie Reviews
-📌 Project Overview
+# 🎬 Sentiment Analysis on IMDb Movie Reviews  
 
-This project implements a sentiment analysis model using the IMDb dataset of 50,000 movie reviews. The goal is to classify each review as either positive or negative. The project leverages deep learning (LSTM with TensorFlow) to understand the underlying sentiment of text data.
+## 📌 Project Overview  
+This project implements a **sentiment analysis model** using the **IMDb dataset of 50,000 movie reviews**.  
+The goal is to classify each review as either **positive** or **negative**.  
+The project leverages **deep learning (LSTM with TensorFlow)** to understand the underlying sentiment of text data.  
 
-⚙️ Requirements
+---
 
-Ensure the following Python libraries are installed before running the project:
+## ⚙️ Requirements  
+Ensure the following Python libraries are installed before running the project:  
+- TensorFlow  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Scikit-Learn  
 
-TensorFlow
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-Scikit-Learn
-
-You can install them using:
+Install them using:  
 
 pip install tensorflow numpy pandas matplotlib scikit-learn
 
-📂 Dataset
+## 📂 Dataset
 
 The dataset used is the IMDb Movie Reviews Dataset from Kaggle.
 
@@ -33,7 +31,7 @@ review → the text of the review
 
 sentiment → label (positive or negative)
 
-🧹 Data Preprocessing
+## 🧹 Data Preprocessing
 
 Cleaning the text
 
@@ -55,7 +53,7 @@ Train-Test Split
 
 80% training data, 20% testing data
 
-🧠 Model Architecture
+## 🧠 Model Architecture
 
 The model is built using TensorFlow Keras Sequential API:
 
@@ -73,7 +71,7 @@ Loss Function: Binary Cross-Entropy
 Optimizer: Adam
 Metric: Accuracy
 
-📊 Training & Evaluation
+## 📊 Training & Evaluation
 
 The model was trained for 10 epochs with a validation split of 20%.
 
@@ -81,7 +79,7 @@ Performance visualization was done using Matplotlib to track training vs. valida
 
 Final evaluation on the test set provided a reliable measure of generalization.
 
-✅ Results
+## ✅ Results
 
 The model achieved high accuracy in classifying sentiments.
 
@@ -93,7 +91,7 @@ Example:
 
 "The film was a disaster. Poor acting and a predictable storyline." → Negative
 
-🚀 Applications
+## 🚀 Applications
 
 Analyzing customer feedback and product reviews
 
@@ -101,7 +99,7 @@ Enhancing recommendation systems
 
 Social media sentiment monitoring
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 Use pre-trained word embeddings like GloVe or Word2Vec
 
